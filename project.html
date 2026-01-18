@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - All Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #4a6de5;
+        }
+
+        .projects {
+            padding: 20px;
+        }
+
+        .back-to-main {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .back-to-main a {
+            background: #4a6de5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .back-to-main a:hover {
+            background: #3a5bd0;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .project-link:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .section-title h1 {
+            font-size: 2.5rem;
+            color: #333;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .section-title h1::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background-color: #4a6de5;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Complete Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">All Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="back-to-main">
+        <a href="index.html">← Back to Main Portfolio</a>
+    </div>
+
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h1>All My Projects</h1>
+        </div>
+        <div class="projects-grid">
+            <!-- Original Projects -->
+            <div class="project-card">
+                <img src="Screenshot_2025_0811_195443.jpg" alt="Project 1">
+                <h3>Sky Bike Rental</h3>
+                <p>Experience the city on two wheels. We offer a wide range of bikes for every skill level, with convenient and affordable rentals to get your adventure started.</p>
+                <a href="https://prasanth781007.github.io/Sky-bike-rental/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="Screenshot_2025_0811_201410.jpg" alt="Project 2">
+                <h3>Portfolio Website</h3>
+                <p>This is my portfolio website, my second project made by Vibe Coding in Blackbox AI, with some edits made by me.</p>
+                <a href="index.html" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="IMG_20250824_114509.jpg" alt="Project 3">
+                <h3>CSS Learning Webpage</h3>
+                <p>This is a learning web page designed for students to learn HTML and CSS, serving as a cheatsheet to help them learn faster.</p>
+                <a href="https://prasanth781007.github.io/Css-property/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="Screenshot_2025_0824_115240 (1).jpg" alt="Project 4">
+                <h3>SKP Water Can</h3>
+                <p>SKP Water Can offers a premium 20-liter water can that is both pure and refreshing, ensuring you have healthy hydration at your doorstep.</p>
+                <a href="https://prasanth781007.github.io/SkpWatercan/" class="project-link">View Project</a>
+            </div>
+
+            <!-- New Projects Added -->
+
+            <!-- Project 5: Magical Arts -->
+            <div class="project-card">
+                <img src="Screenshot_20260116_184256.jpg" alt="Project 5">
+                <h3>Magical Arts</h3>
+                <p>Transform your vision into art with bespoke paintings that capture your unique style and transform your space. Commission custom artwork for your home or office.</p>
+                <a href="https://prasanth781007.github.io/Magicalarts18/" class="project-link">View Project</a>
+            </div>
+
+            <!-- Project 6: 90 Days Aptitude Challenge -->
+            <div class="project-card">
+                <img src="Screenshot_2026_0116_160401.jpg" alt="Project 6">
+                <h3>90 Days Aptitude Challenge</h3>
+                <p>Master aptitude concepts in 90 days. Track your progress, maintain streaks, and join thousands of learners in this interactive learning challenge.</p>
+                <a href="https://prasanth781007.github.io/90daysaptitudechallenge/" class="project-link">View Project</a>
+            </div>
+
+            <!-- Project 7: GTEC Engineering College -->
+            <div class="project-card">
+                <img src="Screenshot_20260116_184518.jpg" alt="Project 7">
+                <h3>GTEC Engineering College</h3>
+                <p>Ganadipathy Tulsi's Jain Engineering College website with B.E Electronics and Communication Engineering program details, semester information, and admissions.</p>
+                <a href="https://prasanth781007.github.io/Gteced/" class="project-link">View Project</a>
+            </div>
+
+            
+            <!-- Project 8: Old Portfolio -->
+            <div class="project-card">
+                <img src="1000043380.jpg" alt="Project 8">
+                <h3>Portfolio (Old Version)</h3>
+                <p>An earlier version of my portfolio website showcasing my web development journey and previous projects.</p>
+                <a href="https://prasanth781007.github.io/Prasanth/" class="project-link">View Project</a>
+            </div>
+
+            <!-- Project 9: Image Name Extractor -->
+            <div class="project-card">
+                <img src="Screenshot_2026_0116_184656.jpg" alt="Project 9">
+                <h3>Image Name Extractor</h3>
+                <p>A utility tool that allows users to upload multiple images and extract their file names with optional prefixes. Easy to use and copy functionality.</p>
+                <a href="https://prasanth781007.github.io/File_name_extractor/" class="project-link">View Project</a>
+            </div>
+
+            <!-- Coming Soon Project -->
+            <div class="project-card">
+                <img src="Yellow Modern Coming Soon Instagram post_20250811_202253_0000.png" alt="Project 10">
+                <h3>Coming Soon</h3>
+                <p>Exciting new project in development. Stay tuned for more updates!</p>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prasanth. All rights reserved. | <a href="index.html" style="color: #4a6de5;">Back to Main Portfolio</a></p>
+    </footer>
+</body>
+</html>
